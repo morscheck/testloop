@@ -18,6 +18,7 @@ class Proxy {
 			}else{
 				echo "\033[K#> \e[31mDie\e[0m  => ". $value . PHP_EOL;	
 			}
+			sleep(3);
 		}
 	}
 }
